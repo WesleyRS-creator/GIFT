@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Flight PHP Skeleton App
 
 Use this skeleton application to quickly setup and start working on a new Flight PHP application. This application uses the latest version of Flight PHP v3.
@@ -74,3 +75,6 @@ After that, open `http://localhost:8000` in your browser.
 
 ## Do it!
 That's it! Go build something flipping sweet!
+=======
+# GIFT
+>>>>>>> d116fa1428e9137fb014861569e3481f6d081881
