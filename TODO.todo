@@ -1,0 +1,107 @@
+**base de données :
+    ☐ créer une table user
+        script on table.sql
+    ☐ créer une table cadeau
+        script on table.sql
+    ☐ créer une table categorie
+        script on table.sql
+    ☐ créer une table categorie_cadeau
+        script on table.sql
+    ☐ créer une table state
+        script on table.sql
+    ☐ créer une table demande_depots
+        script on table.sql
+    ☐ créer une table depots
+        script on table.sql
+    ☐ créer une table facture
+        script on table.sql
+    ☐ créer une table mouvement
+        script on table.sql
+    ☐ créer une table typeMouvement
+        script on table.sql
+    ☐ créer une table historique
+        script on table.sql
+    
+***Model :
+    ☐ Créer les ModelClass(Ny Antema)
+        ☐ UserModel
+            ☐ crud
+            ☐ créer une méthode pour transformer un simple utilisateur en admin
+        ☐ CategorieModel
+            ☐ crud
+            ***NB :
+            ☐ récupérer dans un tableau les categories du produit
+        ☐ DemandeDepotModel
+            ☐ crud
+            ☐ créer une méthode pour autoriser/refuser une demande de depot
+        ☐ DepotModel
+            ☐ crud
+            ☐ créer une méthode pour retirer les dépenses du dépots après achats
+        ☐ CadeauModel
+            ☐ crud
+
+*** routes :
+    ☐ Concevoir les routes
+        ☐ connexion
+            ☐ login : /connexion/login
+            ☐ sign_in : /connexion/sign_in
+        ☐ treatement
+            ☐ treatement_connexion : /connexion/treatments?connectionMethod=(login/sign_in)&&id=(id/null)
+        ☐ connected
+            ☐ admin : 
+                ☐ index : /admin/home
+                    *doit contenir :
+                        ☐ une NavBar fixe left qui liste les chemins(sections) possibles dont le compte a accès
+                            ☐ /depot : liste des demandes de depot
+                            ☐ /users : liste des utilisateurs
+                            ☐ /products : liste des produits
+
+                        ☐ une section pour afficher la bannière de l'entreprise et le titre de la view
+                            ☐ un titre
+                            ☐ une bannière
+                        ☐ une section qui liste les produits disponibles dans le magasin
+                            ☐ /depot : liste des demandes de depot
+                            ☐ /users : liste des utilisateurs
+                            ☐ /products : liste des produits
+
+            ☐ client :
+                ☐ index : /client/home
+                    *doit contenir :
+                        ☐ une NavBar fixe top qui liste les chemins(sections) possibles dont le compte a accès
+                            ☐ liste de tout les sections produits(filtre)
+                                mode d'affichage possible :
+                                ☐ afficher tout par catégorie
+                                ☐ afficher une liste de recommandation par catégorie et en nombre limité selon le remplissage du formulaire de recommendation
+
+                            ☐ liste des dépôts de l'utilisateur actuel + etat
+                                ☐ afficher par etat ?
+                                ☐ afficher par code couleur ?
+                            ☐ liste des achats de l'utilisateurs
+                                ☐ afficher avec lien pour détails afcture
+                        ☐ une section pour afficher les options disponibles :
+                            ☐ lien pour formulaire de liste de recommandation
+    ☐ admin
+        ☐ home : Menu + liste demande_depot + "bouton validation/suppression"
+    ☐ client
+        ☐ home : Menu + liste cadeau par catégorie + "check radio par produit"
+***Controller :
+    ☐ Concevoir les controllers
+        ☐ UserController
+        ☐ CategorieController
+        ☐ DepotController
+        ☐ CadeauController
+***View :
+    ✘ chercher Template @cancelled(24-12-20 14:47)
+    ✔ préparer les pre-sets du projets @done(25-01-08 16:28)
+    ☐ créer une template
+        ☐ créer la wireframe
+            ☐ admin
+            ☐ client
+    ☐ intégrer Template
+    ☐ créer les view :
+        UnConnected(Dylan)
+            ☐ connection
+            ☐ insertion
+        Connected(Ny Antema)
+            ☐ Home
+    ☐ mettre en place la charte graphique

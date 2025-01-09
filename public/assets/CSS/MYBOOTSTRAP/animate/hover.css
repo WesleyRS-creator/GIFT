@@ -1,0 +1,15 @@
+.tranX-100 {
+    transition: 1s;
+}
+
+.transX-100:hover {
+    transform: translateX(100px);
+}
+
+.transSize-12 {
+    transition: 1s;   
+}
+
+.transSize-12:hover {
+    transform: scale(1.2);
+}

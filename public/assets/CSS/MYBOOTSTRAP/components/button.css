@@ -1,0 +1,29 @@
+.btn {
+    text-decoration: none;
+    color: black;
+    font-family: 'ChangaOne';
+
+    border: 1px solid;
+    transition: 1s;
+}
+
+.border-none {
+    border: none;
+}
+
+
+.btn-rect {
+    padding: 10px 40px 10px 40px; /* y x -y -x */
+}
+
+.btn-car {
+    padding: 10px;
+}
+
+.btn-size-100 {
+    width: 100px;
+}
+
+.btn-size-200 {
+    width: 200px;
+}

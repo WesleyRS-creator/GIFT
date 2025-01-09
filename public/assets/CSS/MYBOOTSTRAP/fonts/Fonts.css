@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'ChangaOne';
+    src: url("fonts/Changa_One/ChangaOne-Regular.ttf");
+}
+
+.regular {
+    font-size: 12px;
+}
+
+.medium {
+    font-size: 16px;
+}
+
+.large {
+    font-size: 20px;
+}
+
+.big {
+    font-size: 24px;
+}
+
+.veryBig {
+    font-size: 28px;
+}
