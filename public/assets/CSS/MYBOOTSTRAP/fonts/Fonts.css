@@ -28,25 +28,43 @@
     src: url("fonts/Rubik/static/Rubik-ExtraBold.ttf");
 }
 
-.regular {
+.fontSize-12 {
     font-size: 12px;
-    font-family: 'Rubik-regular';
 }
 
-.medium {
+.fontSize-16 {
     font-size: 16px;
-    font-family: 'Rubik-medium';
+
 }
 
-.large {
+.fontSize-20 {
     font-size: 20px;
-    font-family: 'Rubik-SemiBold';
 }
 
-.big {
+.fontSize-24 {
     font-size: 24px;
 }
 
-.veryBig {
+.fontSize-28 {
     font-size: 28px;
+}
+
+.fontSize-32 {
+    font-size: 32px;
+}
+
+.fontSize-36 {
+    font-size: 36px;
+}
+
+.text-regular {
+    font-family: 'Rubik-regular';
+}
+
+.text-medium {
+    font-family: 'Rubik-medium';
+}
+
+.text-SemiBold {
+    font-family: 'Rubik-SemiBold';
 }

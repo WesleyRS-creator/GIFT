@@ -5,3 +5,7 @@
 .display-grid {
     display: grid;
 }
+
+.stretch {
+    justify-content: stretch;
+}

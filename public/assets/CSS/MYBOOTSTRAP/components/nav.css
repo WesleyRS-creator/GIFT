@@ -1,0 +1,34 @@
+.nav {
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-family: 'Rubik-regular';
+}
+
+.nav-link-btn {
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition: 0.5s;
+    border-radius: 10px;
+    color: #54585d;
+}
+
+.nav-link-btn:hover {
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    background-color: #2E3237;
+}
+
+.nav-link-btn:focus {
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    background-color: #6C5DD0;
+}
+

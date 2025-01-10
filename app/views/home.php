@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="..\assets\CSS\MYBOOTSTRAP\main.css">
+    <link rel="stylesheet" href="..\assets\CSS\CSSPROJECT\main.css">
 </head>
 <body>
-    <div class="display-flex width-full height-full back-crimson">
+    <div class="display-flex width-full height-full back_light-grey">
         <?php
             include ($viewMenu. '.php');
         ?>

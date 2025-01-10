@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="..\assets\CSS\MYBOOTSTRAP\main.css">
 </head>
 <body>
-    <div class="display-flex width-full height-full justify-center align-center medium">
+    <div class="display-flex width-full height-full justify-center align-center text-regular">
         <?php include($viewName. '.php') ?>
     </div>
 </body>

@@ -3,7 +3,7 @@
 }
 
 .back-dark_blue {
-      background-color: rgb(15, 15, 61);
+      background-color: #1E2129;
 }
 
 .back-crimson {
@@ -25,3 +25,9 @@
 .border-white {
     border: 2px solid white;
 }
+
+.back_light-grey {
+    background-color: #22252D;
+}
+
+
