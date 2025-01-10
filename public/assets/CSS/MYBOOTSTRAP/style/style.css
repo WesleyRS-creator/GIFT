@@ -5,3 +5,19 @@
 .radius-10 {
     border-radius: 10px;
 }
+
+.radius-5 {
+    border-radius: 5px;
+}
+
+.radius-3 {
+    border-radius: 3px;
+}
+
+.bordered-1 {
+    border: 1px solid;
+}
+
+.bordered-2 {
+    border: 2px solid;
+}

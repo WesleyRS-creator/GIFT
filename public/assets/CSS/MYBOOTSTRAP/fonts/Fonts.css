@@ -3,16 +3,44 @@
     src: url("fonts/Changa_One/ChangaOne-Regular.ttf");
 }
 
+@font-face {
+    font-family: 'Rubik-regular';
+    src: url("fonts/Rubik/static/Rubik-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Rubik-medium';
+    src: url("fonts/Rubik/static/Rubik-Medium.ttf");
+}
+
+@font-face {
+    font-family: 'Rubik-black';
+    src: url("fonts/Rubik/static/Rubik-Black.ttf");
+}
+
+@font-face {
+    font-family: 'Rubik-Semibold';
+    src: url("fonts/Rubik/static/Rubik-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: 'Rubik-extraBold';
+    src: url("fonts/Rubik/static/Rubik-ExtraBold.ttf");
+}
+
 .regular {
     font-size: 12px;
+    font-family: 'Rubik-regular';
 }
 
 .medium {
     font-size: 16px;
+    font-family: 'Rubik-medium';
 }
 
 .large {
     font-size: 20px;
+    font-family: 'Rubik-SemiBold';
 }
 
 .big {

@@ -1,10 +1,13 @@
 .btn {
-    text-decoration: none;
-    color: black;
-    font-family: 'ChangaOne';
+    padding: 10px 40px 10px 40px;
 
-    border: 1px solid;
-    transition: 1s;
+    /* background-color: none; */
+    border: none;
+    font-family: 'Rubik-regular';
+}
+
+.btn:hover {
+    
 }
 
 .border-none {

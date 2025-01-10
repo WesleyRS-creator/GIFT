@@ -1,34 +1,35 @@
 **base de données :
-    ☐ créer une table user
+    ✔ créer une table user @done(25-01-09 11:03)
         script on table.sql
-    ☐ créer une table cadeau
+    ✔ créer une table cadeau @done(25-01-09 11:03)
         script on table.sql
-    ☐ créer une table categorie
+    ✔ créer une table categorie @done(25-01-09 11:03)
         script on table.sql
-    ☐ créer une table categorie_cadeau
+    ✔ créer une table categorie_cadeau @done(25-01-09 11:03)
         script on table.sql
-    ☐ créer une table state
+    ✔ créer une table state @done(25-01-09 11:03)
         script on table.sql
-    ☐ créer une table demande_depots
+    ✔ créer une table demande_depots @done(25-01-09 11:03)
         script on table.sql
-    ☐ créer une table depots
+    ✔ créer une table depots @done(25-01-09 11:03)
         script on table.sql
-    ☐ créer une table facture
+    ✔ créer une table facture @done(25-01-09 11:03)
         script on table.sql
-    ☐ créer une table mouvement
+    ✔ créer une table mouvement @done(25-01-09 11:03)
         script on table.sql
-    ☐ créer une table typeMouvement
+    ✔ créer une table typeMouvement @done(25-01-09 11:03)
         script on table.sql
-    ☐ créer une table historique
+    ✔ créer une table historique @done(25-01-09 11:03)
         script on table.sql
-    
+        /t/20250108
+        http://172.80.244.221/ETU003604/t/20250108/public
 ***Model :
     ☐ Créer les ModelClass(Ny Antema)
         ☐ UserModel
-            ☐ crud
+            ✔ crud @done(25-01-09 11:04)
             ☐ créer une méthode pour transformer un simple utilisateur en admin
         ☐ CategorieModel
-            ☐ crud
+            ✔ crud @done(25-01-09 11:04)
             ***NB :
             ☐ récupérer dans un tableau les categories du produit
         ☐ DemandeDepotModel
@@ -38,13 +39,14 @@
             ☐ crud
             ☐ créer une méthode pour retirer les dépenses du dépots après achats
         ☐ CadeauModel
-            ☐ crud
+            ✔ crud @done(25-01-09 11:04)
+            ☐ créer une méthode get by
 
 *** routes :
     ☐ Concevoir les routes
         ☐ connexion
-            ☐ login : /connexion/login
-            ☐ sign_in : /connexion/sign_in
+            ☐ login : /
+            ☐ sign_in : /sign_in
         ☐ treatement
             ☐ treatement_connexion : /connexion/treatments?connectionMethod=(login/sign_in)&&id=(id/null)
         ☐ connected

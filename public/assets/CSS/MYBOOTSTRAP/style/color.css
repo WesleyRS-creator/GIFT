@@ -9,3 +9,19 @@
 .back-crimson {
     background-color: crimson;
 }
+
+.back-blue_king {
+    background-color: rgb(8, 6, 23);
+}
+
+.back-white {
+    background-color: white;
+}
+
+.font-white {
+    color: white;
+}
+
+.border-white {
+    border: 2px solid white;
+}

@@ -1,0 +1,10 @@
+.input {
+    width: 200px;
+    height: 25px;
+    border: none;
+    background-color: whitesmoke;
+}
+
+.text-AlignCenter {
+    text-align: center;
+}

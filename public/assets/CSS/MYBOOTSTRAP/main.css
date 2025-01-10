@@ -7,3 +7,13 @@
 @import url(fonts/Fonts.css);
 @import url(style/color.css);
 @import url(style/style.css);
+@import url(style/textArea.css);
+@import url(components/link.css);
+@import url(container/space.css);
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }

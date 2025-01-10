@@ -2,10 +2,10 @@
 
 use app\controllers\ApiExampleController;
 use app\controllers\CategorieController;
-use app\controllers\MatiereController;
-use app\controllers\ProduitController;
+use app\controllers\UserController;
+use app\controllers\CadeauController;
 use app\controllers\WelcomeController;
-use app\models\ProduitModel;
+
 use flight\Engine;
 use flight\net\Router;
 //use Flight;
@@ -21,7 +21,15 @@ use flight\net\Router;
 
 $Welcome_Controller = new WelcomeController();
 $router->get('/', [ $Welcome_Controller, 'launchLogin' ]); 
-$router->get('/sign_in', [ $Welcome_Controller, 'launchSign_in' ]); 
+$router->get('/sign_in', [ $Welcome_Controller, 'launchSign_in' ]);
+
+
+$User_Controller = new UserController();
+$router->post('/authentification', [ $User_Controller, 'login' ]);
+
+$Cadeau_Controller = new CadeauController();
+$router->get('/client/home', [$Cadeau_Controller, 'home']);
+$router->get('/admin/home', [$Cadeau_Controller, 'homeAdmin']);
 
 // $Matiere_Controller = new MatiereController();
 // $router->get('/matiere', [$Matiere_Controller, 'home']);

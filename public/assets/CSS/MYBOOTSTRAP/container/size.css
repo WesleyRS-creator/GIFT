@@ -85,3 +85,47 @@
 .height-5 {
     height: 5vh;
 }
+
+.min-width-full {
+    min-width: 100%;
+}
+
+.min-width-90 {
+    min-width: 90%;
+}
+
+.min-width-80 {
+    min-width: 80%;
+}
+
+.min-width-70 {
+    min-width: 70%;
+}
+
+.min-width-60 {
+    min-width: 60%;
+}
+
+.min-width-50 {
+    min-width: 50%;
+}
+
+.min-width-40 {
+    min-width: 40%;
+}
+
+.min-width-30 {
+    min-width: 30%;
+}
+
+.min-width-25 {
+    min-width: 25%;
+}
+
+.min-width-20 {
+    min-width: 20%;
+}
+
+.min-width-10 {
+    min-width: 10%;
+}
