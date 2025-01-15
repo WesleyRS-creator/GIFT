@@ -18,15 +18,21 @@
     </div>
     <div class="width-full height-80 paddingLeft-20 paddingRight-20 paddingTop-10">
 
-        <div class="width-full height-70 display-flex flex-column overflow-hidden-scroll back-crimson" <?php //background-color:rgb(62, 65, 68); ?>>
-            <div>
-                <p class="font-white">Category</p>
-                <hr>
+        <div class="width-full height-70 display-flex gap-20 flex-column overflow-hidden-scroll back-leight_grey" <?php //background-color:rgb(62, 65, 68); ?>>
+            <div class="display-flex justify-center">
+                <p class="font-white fontSize-32 text-regular">Category</p>
             </div>
-            <div class="display-flex flex-wrap-on back-blue_king justify-evently gapRow-20">
+            <div class="display-flex flex-wrap-on justify-evently gapRow-20">
                 <?php for($i = 0; $i < 10; $i++) { ?>
-                <div class="width-30 height-30 back-white">
-                        sqdsd
+                <div class="width-30 height-30 back-dark_blue display-flex radius-10">
+                        <div class="width-50 height-30 back-crimson display-flex justify-center align-center">
+                            pictures
+                        </div>
+                        <div class="width-50 height-30 back-yellow">
+                            <div>
+                                features
+                            </div>
+                        </div>
                 </div>
                 <?php } ?>
             </div>
