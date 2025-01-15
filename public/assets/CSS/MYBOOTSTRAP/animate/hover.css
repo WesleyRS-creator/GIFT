@@ -6,6 +6,14 @@
     transform: translateX(100px);
 }
 
+.transY-10 {
+    transition: 0.5s;
+}
+
+.transY-10:hover {
+    transform: translateY(-10px);
+}
+
 .transSize-12 {
     transition: 1s;   
 }

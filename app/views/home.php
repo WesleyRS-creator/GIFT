@@ -14,7 +14,7 @@
             include ($viewMenu. '.php');
         ?>
         <?php 
-            // include ($viewName.'.php');
+            include ($viewName.'.php');
         ?>
     </div>
 </body>

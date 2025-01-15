@@ -6,6 +6,27 @@
     display: grid;
 }
 
-.stretch {
-    justify-content: stretch;
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.overflow-hidden-scroll {
+    overflow: hidden;
+    overflow: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    background-color: aqua;
+}
+
+::-webkit-scrollbar-track {
+    width: 6px;
+    background-color: rgb(47, 47, 47);
+}
+
+::-webkit-scrollbar-thumb {
+    width: 6px;
+    border-radius: 10px;
+    background-color: rgb(137, 137, 137);
 }

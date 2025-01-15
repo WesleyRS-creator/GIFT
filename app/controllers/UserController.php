@@ -22,7 +22,6 @@ class UserController {
         if ($user == null) {
             $data = ['viewName' => 'viewForm', 'action' => 'login'];
             Flight::render('connexion', $data);
-
         } else {
 
             if ($user['ADMIN'] == true) {
@@ -37,6 +36,26 @@ class UserController {
             }
             
         }
+    }
+
+    public function sign_in() {
+        $name = $_POST['name'];
+        $password1 = $_POST['motdepasse1'];
+        $password2 = $_POST['motdepasse2'];
+        // echo strcmp($password1, $password2);
+        if (strcmp($password1, $password2) != 0) {
+            $data = ['viewName' => 'viewForm', 'action' => 'sign_in'];
+            // echo ("Bonour");
+            Flight::render('connexion', $data);
+        }
+
+        $user['NAME'] = $name;
+        $user['PASSWORD'] = $password1;
+
+        $user = Flight::userModel()->createUser($user);
+
+        Flight::redirect("/client/home");
+        // echo $name, $password1, $password2;
     }
 
 

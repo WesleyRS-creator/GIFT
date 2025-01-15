@@ -62,12 +62,36 @@
     gap: 40px;
 }
 
-.marged-10 {
-    margin-top: 10%;
+.gapRow-10 {
+    row-gap: 10px;
 }
 
-.marged-20 {
-    margin-top: 20%;
+.gapRow-20 {
+    row-gap: 20px;
+}
+
+.gapRow-30 {
+    row-gap: 30px;
+}
+
+.gapRow-40 {
+    row-gap: 40px;
+}
+
+.gapColumn-10 {
+    column-gap: 10px;
+}
+
+.gapColumn-20 {
+    column-gap: 20px;
+}
+
+.gapColumn-30 {
+    column-gap: 30px;
+}
+
+.gapColumn-40 {
+    column-gap: 40px;
 }
 
 .margedTop {
@@ -80,4 +104,12 @@
 
 .alignSelf-end {
     align-self: flex-end;
+}
+
+.stretch {
+    justify-content: stretch;
+}
+
+.flex-wrap-on {
+    flex-wrap: wrap;
 }

@@ -26,6 +26,7 @@ $router->get('/sign_in', [ $Welcome_Controller, 'launchSign_in' ]);
 
 $User_Controller = new UserController();
 $router->post('/authentification', [ $User_Controller, 'login' ]);
+$router->post('/accountCreation', [ $User_Controller, 'sign_in' ]);
 
 $Cadeau_Controller = new CadeauController();
 $router->get('/client/home', [$Cadeau_Controller, 'home']);

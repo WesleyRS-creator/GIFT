@@ -15,7 +15,7 @@ class CadeauController {
         //$categorie = Flight::categorieModel()->getAllCategories();
     
         // Envoyer les données organisées à la vue
-        $data = ['viewMenu' => 'viewMenu', 'user' => 'client'];
+        $data = ['viewMenu' => 'viewMenu','user' => 'client', 'viewName' => 'viewCadeauClient'];
         Flight::render('home', $data);
     }
 

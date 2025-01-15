@@ -56,17 +56,17 @@ class UserModel {
 
     public function createUser($data) {
         $db = Flight::db();
-        $sql = "INSERT INTO CADEAU_USER (NOM, PASSWORD, ADMIN) VALUES (?, ?, false)";
+        $sql = "INSERT INTO CADEAU_USER (NAME, PASSWORD, ADMIN) VALUES (?, ?, false)";
         $stmt = $db->prepare($sql);
-        $stmt->execute([$data['NOM'], $data['PASSWORD']]);
+        $stmt->execute([$data['NAME'], $data['PASSWORD']]);
         return $db->lastInsertId();
     }
 
     public function updateUser($id, $data) {
         $db = Flight::db();
-        $sql = "UPDATE CADEAU_USER SET NOM = ?, PASSWORD = ?, ADMIN = ? WHERE ID_USER = ?";
+        $sql = "UPDATE CADEAU_USER SET NAME = ?, PASSWORD = ?, ADMIN = ? WHERE ID_USER = ?";
         $stmt = $db->prepare($sql);
-        $stmt->execute([$data['NOM'], $data['PASSWORD'], $data['ADMIN'], $id]);
+        $stmt->execute([$data['NAME'], $data['PASSWORD'], $data['ADMIN'], $id]);
     }
 
     public function deleteUser($id) {

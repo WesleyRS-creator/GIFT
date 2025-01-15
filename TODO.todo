@@ -45,10 +45,10 @@
 *** routes :
     ☐ Concevoir les routes
         ☐ connexion
-            ☐ login : /
-            ☐ sign_in : /sign_in
+            ✔ login : / @done(25-01-11 08:19)
+            ✔ sign_in : /sign_in @done(25-01-14 13:42)
         ☐ treatement
-            ☐ treatement_connexion : /connexion/treatments?connectionMethod=(login/sign_in)&&id=(id/null)
+            ✔ treatement_connexion : /connexion/treatments?connectionMethod=(login/sign_in)&&id=(id/null) @done(25-01-14 13:42)
         ☐ connected
             ☐ admin : 
                 ☐ index : /admin/home

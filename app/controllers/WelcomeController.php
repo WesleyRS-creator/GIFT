@@ -17,7 +17,7 @@ class WelcomeController {
     }
 
     public function launchSign_in() {
-        $data = ['viewName' => 'viewForm', 'action' => 'signin'];
+        $data = ['viewName' => 'viewForm', 'action' => 'sign_in'];
         Flight::render('connexion', $data);
     }
 

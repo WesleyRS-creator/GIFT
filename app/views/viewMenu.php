@@ -1,5 +1,5 @@
-<nav class="width-20 height-full display-flex flex-column justify-start align-center gap-40 back-dark_blue myNav">
-            <div class="width-90 marged-10">
+<nav class="width-20 height-full display-flex flex-column justify-start align-center back-dark_blue myNav">
+            <div class="width-90 height-10 margingTop-10 display-flex align-center justify-center">
                     <div class="medium text-regular text-AlignCenter fontSize-32 font-white">
                         Society Name
                     </div>
@@ -23,36 +23,31 @@
                     <?php } ?>
 
                     <?php if($user == "admin") { ?>
-                        <li>
-                            <a href="/home/chauffeur" class="button button-hover colorHover">Chauffeur</a>
+                        <li class=" width-full text-AlignCenter">
+                            <a href="#" class="nav-link nav-link-btn">Cadeaux</a>
                         </li>
-                        <li>
-                            <a href="/home/vehicule" class="">Vehicules</a>
+                        <li class=" width-full text-AlignCenter">
+                            <a href="#" class="nav-link nav-link-btn">Demandes de Depots</a>
                         </li>
-                        <li>
-                            <a href="/home/travel" class="">Travels</a>
+                        <li class=" width-full text-AlignCenter">
+                            <a href="#" class="nav-link nav-link-btn">Mes Achats</a>
                         </li>
-                        <li>
-                            <a href="/home/trajet" class="">Trajets</a>
+                        <li class=" width-full text-AlignCenter">
+                            <a href="#" class="nav-link nav-link-btn">Utilisateurs</a>
                         </li>
                     <?php } ?>
 
                 </ul>
             </div>
-            <div class="width-20 min-height-20 margedTop alignSelf-start back-crimson">
+            <div class="width-20 min-height-20 margedTop margingLeft-10 alignSelf-start back-crimson">
                 <ul class="nav">
                     <?php if($user == "admin") { ?>
                         <li><a href="">switch client</a></li>
                     <?php } ?>
                     <li>
-                        <div>
-                            <a href="">
-                            <div class="icon">
-                                <img src="..\assets\CSS/MYBOOTSTRAP\svg/icons\sortie.svg" alt="">
-                            </div>
-                            </a>
-                        </div>
-                        
+                        <!-- <div class="icon-container">
+                            <iconv class="eicon-outDoor"></iconv>
+                        </div> -->
                     </li>
                 </ul>
 
