@@ -4,7 +4,7 @@
 
         </div>
             <div class="display-flex width-40 justify-center  bordered-1 radius-20 div-blurred">
-                <form action='/authentification' method="post" class="display-flex flex-column gap-20 paddingTop-40">
+                <form action='<?= Flight::get('flight.base_url') ?>/authentification' method="post" class="display-flex flex-column gap-20 paddingTop-40">
                     <div>
                         <p class="large text-AlignCenter fontSize-32">Society Name</p>
                     </div>
@@ -18,7 +18,7 @@
                     </div>
                     <div class="display-flex flex-column align-center gap-5">
                         <input type="submit" value="connexion" class="btn fontSize-16 Mybtn">
-                        <a href="/sign_in" class="link">Sign_in</a>
+                        <a href="<?= Flight::get('flight.base_url') ?>/sign_in" class="link">Sign_in</a>
                     </div>
                 </form>
             </div>
@@ -32,7 +32,7 @@
 
         </div>
             <div class="display-flex width-40 height-70 justify-center  bordered-1 radius-20 div-blurred">
-                <form action='/accountCreation' method="post" class="display-flex flex-column gap-20 paddingTop-40">
+                <form action='<?= Flight::get('flight.base_url') ?>/accountCreation' method="post" class="display-flex flex-column gap-20 paddingTop-40">
                     <div>
                         <p class="large text-AlignCenter fontSize-32">Society Name</p>
                     </div>
@@ -50,7 +50,7 @@
                     </div>
                     <div class="display-flex flex-column align-center gap-5">
                         <input type="submit" value="Inscription" class="btn fontSize-16 Mybtn">
-                        <a href="/" class="link">Login</a>
+                        <a href="<?= Flight::get('flight.base_url') ?>/" class="link">Login</a>
                     </div>
                 </form>
             </div>

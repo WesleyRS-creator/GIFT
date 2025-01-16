@@ -1,5 +1,10 @@
 RewriteEngine On
-RewriteBase /ETU003604/t/20250108/public
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^ index.php [QSLA,L]
+RewriteRule ^(.*)$ index.php [QSA,L]
+
+# BEGIN GZIP
+<ifmodule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css application/x-javascript application/javascript
+</ifmodule>
+# END GZIP

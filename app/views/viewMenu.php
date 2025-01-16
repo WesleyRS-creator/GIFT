@@ -1,7 +1,7 @@
 <nav class="width-20 height-full display-flex flex-column justify-start align-center back-dark_blue myNav">
             <div class="width-90 height-10 margingTop-10 display-flex align-center justify-center">
                     <div class="medium text-regular text-AlignCenter fontSize-32 font-white">
-                        Society Name
+                        ETU003604
                     </div>
             </div>
 

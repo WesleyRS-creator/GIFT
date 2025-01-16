@@ -5,7 +5,7 @@
         </ul>
         <ul class="nav margingRight-20 display-flex align-center gap-40">
             <li class=""><a href="#" class="nav-link btn fontSize-16">Recommended Gift</a></li>
-            <li class=""><a href="#" class="nav-link font-white fontSize-20">AccountName</a></li>
+            <li class=""><a href="#" class="nav-link font-white fontSize-20">ETU003554</a></li>
         </ul>
     </div>
     <div class="width-full min-height-10 display-flex align-center">

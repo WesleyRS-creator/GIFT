@@ -23,9 +23,9 @@
         script on table.sql
         /t/20250108
         http://172.80.244.221/ETU003604/t/20250108/public
-***Model :
+***Model (Ny Antema):
     ☐ Créer les ModelClass(Ny Antema)
-        ☐ UserModel
+        ✔ UserModel @done(25-01-15 14:29)
             ✔ crud @done(25-01-09 11:04)
             ☐ créer une méthode pour transformer un simple utilisateur en admin
         ☐ CategorieModel
@@ -42,7 +42,7 @@
             ✔ crud @done(25-01-09 11:04)
             ☐ créer une méthode get by
 
-*** routes :
+*** routes (Ny Antema):
     ☐ Concevoir les routes
         ☐ connexion
             ✔ login : / @done(25-01-11 08:19)
@@ -87,23 +87,30 @@
     ☐ client
         ☐ home : Menu + liste cadeau par catégorie + "check radio par produit"
 ***Controller :
-    ☐ Concevoir les controllers
-        ☐ UserController
-        ☐ CategorieController
+    ☐ Concevoir les controllers(Dylan)
+        ✔ UserController(minimum) @done(25-01-15 14:42)
+        ✔ CategorieController(minimum) @done(25-01-15 14:42)
         ☐ DepotController
-        ☐ CadeauController
+        ✔ CadeauController(minimum) @done(25-01-15 14:42)
 ***View :
     ✘ chercher Template @cancelled(24-12-20 14:47)
     ✔ préparer les pre-sets du projets @done(25-01-08 16:28)
     ☐ créer une template
-        ☐ créer la wireframe
-            ☐ admin
-            ☐ client
+        ✔ créer la wireframe @done(25-01-15 14:31)
+            ✔ admin @done(25-01-15 14:28)
+            ✔ client @done(25-01-15 14:28)
     ☐ intégrer Template
     ☐ créer les view :
-        UnConnected(Dylan)
-            ☐ connection
-            ☐ insertion
-        Connected(Ny Antema)
-            ☐ Home
-    ☐ mettre en place la charte graphique
+        ☐ html-php
+            ☐ viewForm (Dylan)
+                ✔ connection @done(25-01-15 14:28)
+                ✔ insertion @done(25-01-15 14:33)
+                ☐ formulaire de recommandation
+            Connected(Ny Antema)
+                ☐ Home
+                    ☐ liste de tous les produits
+                    ☐ list des produits recommandé
+    ☐ mettre en place la charte graphique et la finalisation du template (Ny Antema)
+        ☐ css
+            ✔ formulaire @done(25-01-15 14:28)
+            ☐ page principale
